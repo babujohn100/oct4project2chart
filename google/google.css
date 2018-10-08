@@ -2,3 +2,6 @@ g.x.axis text {
     text-anchor: end !important; 
     transform: rotate(-45deg);
 }
+#app-chart{
+    margin-top: 50px;
+}

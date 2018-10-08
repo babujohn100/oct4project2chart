@@ -76,8 +76,9 @@ function makeCharts(error, transactionsData) {
     let google = dc.pieChart("#pie-chart1");
 
     google
-        .width(300)
-        .radius(150)
+        .width(1000)
+        .radius(1000)
+        
         .dimension(ap)
         .group(size)
         .transitionDuration(1500);
